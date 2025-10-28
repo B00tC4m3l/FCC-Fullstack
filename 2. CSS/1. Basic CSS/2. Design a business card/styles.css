@@ -1,0 +1,35 @@
+body{
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.business-card{
+  width: 300px;
+  background: linear-gradient(#e66465, #9198e5);
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 7px solid #ffcce5;
+}
+.profile-image{
+  max-width: 100%;
+  width: 150px;
+  border-radius: 20px;
+  border: 7px solid white;
+}
+hr{
+  height: 5px;
+  background-color: #9198e5;
+  border: 1px solid #9198e5;
+  border-radius: 20px;
+}
+p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+a{
+  text-decoration: none;
+}
