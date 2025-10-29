@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Some survey form</h1>
+    <p id="description">This is very random survey form</p>
+    <form id="survey-form">
+      <label id="name-label">
+        Name:
+        <input type="text" id="name" required placeholder="name">
+      </label>
+      <label id="email-label">
+        Email:
+        <input id="email" type="email" placeholder="email@gmail.com" required>
+      </label>
+      <label id="number-label">
+        Age:
+        <input id="number" type="number" min="0"  max="120" placeholder="0-120">
+      </label>
+      <label>
+        Are you gay:
+        <select id="dropdown">
+          <option value="yes">yes</option>
+          <option value="no">no</option>
+        </select>
+      </label>
+      <p>Are you dysfunctional?</p>
+      <label>
+        yes  
+        <input type="radio" value="yes" name="dynsfunc">
+      </label>
+      <label>
+        no
+        <input type="radio" value="no" name="dynsfunc">
+      </label>
+      <p>What type of cats you like?</p>
+      <label>
+        sfinx
+        <input type="checkbox" value="sfinx">
+      </label>
+      <label>
+        orange
+        <input type="checkbox" value="orange">
+      </label>
+      <label>
+        normie
+        <input type="checkbox" value="normie">
+      </label>
+      <p>Some additional comments</p>
+      <textarea rows="3" cols="30" placeholder="this survey sucks"></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
