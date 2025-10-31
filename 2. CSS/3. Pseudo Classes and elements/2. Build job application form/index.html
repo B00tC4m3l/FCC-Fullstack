@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <header>
+                <h1>dev application form</h1>
+                <p>It doesn't matter which skill level you are at</p>
+            </header>
+            
+            <main>
+                <section>
+                    <label for="name">Username: </label>
+                    <input type="text" id="name" required>
+                </section>
+
+                <section>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" required>
+                </section>
+
+                <section id="applying-for">
+                    <label for="position">Position you want to apply for </label>
+                    <select id="position" required>
+                        <option selected>Select one</option>
+                        <option>Front-end</option>
+                        <option>Back-end</option>
+                        <option>Management</option>
+                        <option>Security operations</option>
+                        <option>Other</option>
+                    </select>
+                </section>
+
+                <fieldset class="radio-group">
+                    <legend>Availability</legend>
+                    <p>I wanna work...</p>
+                    
+                    <section>
+                        <input type="radio" name="availability" id="full" checked>
+                        <label for="full">Full time</label>
+                    </section>
+
+                    <section>
+                        <input type="radio" name="availability" id="part">
+                        <label for="part">Part time</label>
+                    </section>
+                </fieldset>
+
+                <section>
+                    <label for="message">Other comments regarding your job preferences?</label>
+                    <textarea id="message" rows="3" cols="30" placeholder="Salary, specific position you want to apply etc..." required></textarea>
+                </section>
+
+                <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
