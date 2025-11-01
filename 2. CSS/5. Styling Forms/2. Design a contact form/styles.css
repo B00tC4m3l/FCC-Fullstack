@@ -1,0 +1,44 @@
+body{
+  background: url(https://wallpapercg.com/download/denji-in-chainsaw-man-5120x3657-19618.jpg);
+  background: cover;
+}
+h2{
+    text-align: center;
+}
+.form-container{
+  background: linear-gradient(black, dimgrey);
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 200px;
+  max-width: 500px;
+  width: 70%;
+  margin: 100px auto;
+  border: 10px solid #aa0808;
+  font-family: 'The Monster', sans-serif;
+  color: red;
+}
+label{
+  margin: 1px;
+  color: #aa0808;
+}
+input, textarea{
+  display: block;
+  width: 100%;
+  padding: 1px;
+  line-height: 20px;
+  font-size: 20px;
+  font-family: 'The Monster', sans-serif;
+  margin-bottom: 10px;
+}
+button{
+  display: block;
+  background-color: red;
+  font-size: 1.5em;
+  font-family: 'The Monster', sans-serif;
+  margin: 0 auto;
+  width: 70%;
+}
+button:hover{
+  background-color: #aa0808;
+}
