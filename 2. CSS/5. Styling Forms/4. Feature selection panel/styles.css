@@ -1,0 +1,72 @@
+:root{
+  font-size: 16px;
+}
+body{
+  background-color: navajowhite;
+  padding: 0;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  margin-top: 2em;
+  background-color: burlywood;
+  text-decoration: underline;
+}
+.feature-card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  background: floralwhite;
+  width: 100wv;
+}
+.feature-card{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  width: 300px;
+  background: linear-gradient();
+  padding-bottom: 2em;
+  border-radius: 10px;
+  border: 5px solid chocolate;
+  background: linear-gradient(blanchedalmond, antiquewhite);
+}
+.feature-card-header{
+  font-size: 1.5em;
+  position: relative;
+  width: 100%;
+  text-decoration: underline;
+  text-align: center;
+}
+.feature-card input{
+  right: 1em;
+  top: 1em;
+  margin-bottom: 1em;
+  align-self: flex-end;
+}
+.feature-card-text{
+  margin-top: 1em;
+}
+.feature-card input[type="checkbox"]{
+  appearance: none;
+  background-color: burlywood;
+  width: 2em;
+  height: 2em;
+  border: 2px solid brown;
+  vertical-align: middle;
+  border-radius: 5px;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+}
+.feature-card input[type="checkbox"]:checked{
+  background-color: brown;
+}
+.feature-card input[type="checkbox"]:checked:after{
+  content: "✓";
+  display: block;
+  text-align: center;
+  line-height: 2em;
+}
