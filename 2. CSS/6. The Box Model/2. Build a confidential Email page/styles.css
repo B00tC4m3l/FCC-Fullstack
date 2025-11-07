@@ -1,0 +1,111 @@
+:root{
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2Fd%2F4%2Fc%2F588891.jpg&f=1&nofb=1&ipt=b6c20ad24b36fe7d3b1913b178f7bd5bbbd830d42c1b14df06b2665bc1e96ad2");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#email{
+  position: relative;
+  padding: 50px;
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px;
+  background-color: yellow;
+  overflow: hidden;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F011%2F093%2F796%2Foriginal%2Fwatercolor-paper-texture-free-vector.jpg&f=1&nofb=1&ipt=6bf47c45eeed5336705ee53a9669fe3d5ade297c83691efab1f205f240383f45");
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+#email:after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: 
+  radial-gradient(
+    circle at center,
+    rgba(0,0,0,0) 70%,
+    rgba(90,40,0,0.5) 90%,
+    rgba(0,0,0,0.8) 100%
+  ),
+  radial-gradient(
+    circle at 20% 15%,
+    rgba(0,0,0,0.2) 80%,
+    rgba(90,40,0,0.5) 90%,
+    rgba(0,0,0,0.8) 100%
+  ),
+  radial-gradient(
+    circle at 80% 25%,
+    rgba(0,0,0,0) 70%,
+    rgba(90,40,0,0.5) 90%,
+    rgba(0,0,0,0.8) 100%
+  ),
+  radial-gradient(
+    circle at 90% 80%,
+    rgba(0,0,0,0) 70%,
+    rgba(90,40,0,0.5) 90%,
+    rgba(0,0,0,0.8) 100%
+  );
+  mix-blend-mode: multiply;
+  border-radius: inherit;
+}
+#confidential, #top-secret, #bloody, #splatter{
+  position: absolute;
+  margin: 1px;
+}
+
+#confidential, #top-secret{
+  display: inline-block;
+  position: relative;
+}
+
+#confidential{
+  padding: 20px;
+  border: 10px dashed red;
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+  top: 10rem;
+  left: 10rem;
+  transform: rotate(5deg);
+}
+#top-secret{
+  background-color: white;
+  padding: 10px;
+  border: 10px solid;
+  border-image: repeating-linear-gradient(
+    45deg,
+    yellow 0 10px,
+    black 10px 20px
+  ) 1;
+  border-radius: 6px;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  top: 15rem;
+  left: 20rem;
+  transform: rotate(2deg);
+}
+#bloody{
+  font-family: 'Creepster';
+  font-size: 2rem;
+  color: red;
+  bottom: 1em;
+}
+#splatter{
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.vexels.com%2Fmedia%2Fusers%2F3%2F143405%2Fisolated%2Fpreview%2Fea7fefc0fd132bc41819426ad91bbcd3-grunge-blood-splatter-by-vexels.png&f=1&nofb=1&ipt=0e5e3aa64d53ee0cdad7cb561acd33f63ddd0d18b21c35801b1c0f037ae20b62");
+  z-index: 2;
+  bottom: 20px;
+  width: 199rem;
+  height: 40rem;
+  opacity: 0.6;
+}
+.blurred{
+  filter: blur(3px);
+}
