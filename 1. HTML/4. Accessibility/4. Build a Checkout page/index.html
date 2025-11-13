@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="its a cube">
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <fieldset>
+                <label for="card-name">
+                    <span aria-hidden="true">*</span>
+                    Name
+                </label>
+                <input 
+                    id="card-name"
+                    name="card-name" 
+                    type="text"
+                    required
+                >
+            </fieldset>
+            <fieldset>
+                <label for="card-number">
+                    <span aria-hidden="true">*</span>
+                    Card
+                </label>
+                <input
+                    id="card-number"
+                    name="card-number"
+                    type="text"
+                    required
+                    aria-describedby="card-number-help"
+                >
+                <p id="card-number-help">Just some explanation</p>
+            </fieldset>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+</body>
+
+</html>
