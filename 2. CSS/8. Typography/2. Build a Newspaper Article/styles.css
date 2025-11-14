@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 24px;
+  padding: 20px;
+  background: linear-gradient(yellow, black);
+  height: 100vh;
+}
+.newspaper{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  padding-top: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  background: url("https://images.unsplash.com/photo-1601662528567-526cd06f6582?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFwZXIlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+}
+.name{
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  background-color: red;
+  padding: 0px 20px;
+}
+.date{
+  margin: 10px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.name, .author{
+  text-transform: uppercase;
+}
+.headline, .sub-headline, .author, .text{
+  padding: 5px 20px;
+}
+.headline{
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.sub-headline{
+  font-weight: 100;
+  font-size: 1.5em;
+  font-style: italic;
+}
+.author{
+  font-weight: bold;
+}
+.text{
+  text-indent: 20px;
+  line-height: 2em;
+}
+.text::first-letter{
+  font-weight: bold;
+  font-size: 2em;
+}
